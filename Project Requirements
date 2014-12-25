@@ -1,0 +1,20 @@
+Name: Search in File
+
+Implementation :
+Assembly 8086 language 
+
+Purpose: 
+The program should take as input a string to search for, and search option (Case Match: ON/OFF ,Whole Word: ON/OFF ) and a file path. Then it outputs a list stating the line where this pattern was found, and displaying this line. If the file is not found an error message should be displayed.
+
+Algorithm:
+
+Input: 
+A string to search for, search option (Case Match: ON/OFF, Whole Word: ON/OFF), and a file path.
+Register usage within the routine: 
+
+Output: 
+Number of the line in the text file and display the line.
+Error; if the file is not found.
+
+Note:
+You must apply the case match and whole word option .
